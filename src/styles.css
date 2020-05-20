@@ -1,3 +1,32 @@
-body {
+html {
   font-family: sans-serif;
+  background: rebeccapurple;
+}
+
+.inbox {
+  max-width: 400px;
+  margin: 50px auto;
+  background: beige;
+  border-radius: 5px;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1, green, blue, alpha);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #5a1403;
+}
+.item:last-child {
+  border-bottom: 0;
+}
+
+p {
+  margin: 1;
+  padding: 2px;
+  transition: background 0.2s;
+  flex: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  border-left: 1px solid #d1e2ff;
 }
