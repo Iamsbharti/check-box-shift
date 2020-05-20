@@ -19,7 +19,13 @@ html {
 .item:last-child {
   border-bottom: 0;
 }
-
+imput:checked + p {
+  background: yellowgreen;
+  text-decoration: line-through;
+}
+imput[type="checkbox"] {
+  margin: 20px;
+}
 p {
   margin: 1;
   padding: 2px;
