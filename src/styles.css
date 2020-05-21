@@ -19,15 +19,15 @@ html {
 .item:last-child {
   border-bottom: 0;
 }
-imput:checked + p {
-  background: yellowgreen;
+input:checked + p {
+  background: rgb(224, 226, 220);
   text-decoration: line-through;
 }
-imput[type="checkbox"] {
+input[type="checkbox"] {
   margin: 20px;
 }
 p {
-  margin: 1;
+  margin: 0;
   padding: 2px;
   transition: background 0.2s;
   flex: 1;
